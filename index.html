@@ -1,8 +1,31 @@
-!doctype html>
+<!doctype html>
 <html lang="en">
-  <head>
-  </head>
-  <body>
-    <h1>To Do List</h1>
-  </body>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1>To Do List</h1>
+        <div class="container">
+            <div   div class="add-todo">
+                <input
+                    type="text"
+                    id="todoInput"
+                    placeholder="Enter a new task..."
+                />
+                <button id="submitBtn">Submit</button>
+            </div>
+
+            <div class="lists">
+                <div class="todo-section">
+                    <h2>Pending Todos</h2>
+                        <ul id="pendingList"></ul>
+                </div>
+
+                <div class="todo-section">
+                    <h2>Completed Todos</h2>
+                    <ul id="completedList"></ul>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
