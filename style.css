@@ -49,3 +49,55 @@ h1 {
   padding: 15px;
   border-radius: 8px;
 }
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  background: #eee;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.todo-text {
+  flex: 1;
+}
+
+.actions {
+  display: flex;
+  gap: 5px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+.toggle-btn {
+  background: #2196f3;
+  color: white;
+}
+
+.edit-btn {
+  background: orange;
+  color: white;
+}
+
+.delete-btn {
+  background: crimson;
+  color: white;
+}
+
+.save-btn {
+  background: green;
+  color: white;
+}
+
+.edit-input {
+  width: 100%;
+  padding: 5px;
+}
